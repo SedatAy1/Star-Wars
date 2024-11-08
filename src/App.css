@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.starship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.starship-card {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.starship-card:hover {
+  transform: scale(1.05);
+}
+
+.starship-details {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  margin: 20px;
+  padding: 8px;
+  font-size: 16px;
+}
+.starship-details img {
+  width: 50%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
